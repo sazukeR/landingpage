@@ -4,3 +4,111 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  max-width: 770px;
+  height: 100%;
+  min-height: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0;
+  overflow-y: auto;
+}
+
+.box1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 770px;
+  background: url("assets/geometricBGs43.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.box1 .title {
+  align-items: center;
+  min-width: 200px;
+  max-width: 200px;
+}
+
+.box1 h1 {
+  margin: 0;
+  color: #ffff;
+  text-transform: uppercase;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 200;
+  text-align: center;
+}
+
+.box1 .info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 180px;
+  max-width: 180px;
+}
+
+.box1 h6 {
+  margin: 0;
+  color: #ffff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  text-align: center;
+}
+
+.box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 770px;
+  flex-direction: column;
+  height: 50%;
+}
+
+.box2 form {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  min-width: 250px;
+  max-width: 250px;
+}
+
+.box2 div {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 5px 10px 5px 10px;
+}
+
+.box2 label {
+  font-family: "Poppins", Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+  border: 2px solid rgb(218, 216, 216);
+  padding: 5px 0 5px 0;
+  background-color: rgb(214, 218, 218);
+}
+
+.box2 .submit {
+  color: white;
+  background: linear-gradient(#420d97, #04061a);
+  width: 80%;
+  padding: 8px 0 8px 0;
+  margin-top: 20px;
+  border: none;
+}
