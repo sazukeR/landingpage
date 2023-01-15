@@ -3,22 +3,26 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  width: 100%;
   max-width: 770px;
   height: 100%;
-  min-height: 400px;
   margin-right: auto;
   margin-left: auto;
   margin-top: 0;
-  overflow-y: auto;
+  max-height: 844px;
 }
 
-.box1 {
+.container .box1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,9 +69,9 @@ body {
   text-align: center;
 }
 
-.box2 {
+.container .box2 {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   width: 100%;
   max-width: 770px;
@@ -77,38 +81,45 @@ body {
 
 .box2 form {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+  height: 100%;
   min-width: 250px;
-  max-width: 250px;
+  max-width: 350px;
 }
 
 .box2 div {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   width: 90%;
-  padding: 5px 10px 5px 10px;
+  height: 30%;
 }
 
-.box2 label {
+label {
   font-family: "Poppins", Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: bold;
+  text-align: left;
+  width: 100%;
 }
 
 input[type="text"],
 input[type="email"] {
   border: 2px solid rgb(218, 216, 216);
-  padding: 5px 0 5px 0;
+  padding: 10px 5px 10px 5px;
   background-color: rgb(214, 218, 218);
+  width: 100%;
 }
 
-.box2 .submit {
+input[type="submit"] {
   color: white;
   background: linear-gradient(#420d97, #04061a);
-  width: 80%;
+  width: 85%;
+  height: 40%;
   padding: 8px 0 8px 0;
-  margin-top: 20px;
   border: none;
 }
