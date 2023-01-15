@@ -1,13 +1,12 @@
 html,
 body {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
   width: 100%;
   height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -16,10 +15,9 @@ body {
   width: 100%;
   max-width: 770px;
   height: 100%;
+  max-height: 844px;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 0;
-  max-height: 844px;
 }
 
 .container .box1 {
@@ -28,7 +26,6 @@ body {
   align-items: center;
   flex-direction: column;
   width: 100%;
-  max-width: 770px;
   background: url("assets/geometricBGs43.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -44,7 +41,6 @@ body {
 }
 
 .box1 h1 {
-  margin: 0;
   color: #ffff;
   text-transform: uppercase;
   font-family: "Bebas Neue", sans-serif;
@@ -53,29 +49,24 @@ body {
 }
 
 .box1 .info {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-width: 180px;
-  max-width: 180px;
+  width: 180px;
 }
 
 .box1 h6 {
-  margin: 0;
   color: #ffff;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 100;
   text-align: center;
+  margin: 0;
 }
 
 .container .box2 {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
-  max-width: 770px;
   flex-direction: column;
+  width: 100%;
   height: 50%;
 }
 
