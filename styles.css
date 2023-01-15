@@ -112,6 +112,8 @@ input[type="submit"] {
   border: none;
 }
 
+/* ----------------------M 770--------------------- */
+
 @media screen and (min-width: 770px) {
   .container .box1 {
     height: 60%;
@@ -119,6 +121,11 @@ input[type="submit"] {
 
   .box1 .title {
     width: 250px;
+  }
+
+  .box1 h1 {
+    font-weight: 200;
+    text-align: center;
   }
 
   .box1 .info {
@@ -169,5 +176,90 @@ input[type="submit"] {
     border: none;
     width: 25%;
     margin-left: 5%;
+  }
+}
+
+/* ---------------------LG 1260--------------------- */
+
+@media screen and (min-width: 1260px) {
+  .container {
+    flex-direction: row;
+    max-height: 1300px;
+  }
+
+  .container .box1 {
+    width: 50%;
+    height: 100%;
+  }
+
+  .box1 .title {
+    width: 360px;
+    height: 400px;
+    justify-content: right;
+  }
+
+  .box1 h1 {
+    font-size: 45px;
+    font-weight: 200;
+    text-align: right;
+    line-height: 2;
+  }
+
+  .box1 h6 {
+    font-size: 18px;
+    font-weight: 200;
+    text-align: right;
+  }
+
+  .box1 .info {
+    width: 360px;
+  }
+
+  .container .box2 {
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+  }
+
+  .box2 form {
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 50%;
+    min-width: 250px;
+    max-width: 550px;
+  }
+
+  .box2 div {
+    justify-content: center;
+    width: 90%;
+    height: 20%;
+    margin-left: 10%;
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    width: 80%;
+    align-self: flex-start;
+  }
+
+  form div:nth-child(1) {
+    margin-left: 10%;
+  }
+
+  form div:nth-child(3) {
+    align-self: center;
+    flex-grow: 1;
+    width: 70%;
+  }
+
+  input[type="submit"] {
+    align-self: flex-start;
+    border: none;
+    width: 70%;
+    margin-left: 0;
   }
 }
