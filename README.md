@@ -1,9 +1,10 @@
 # A simple landing page
 
-> Set up the project, the goal here is to master all of the tools and best practices about Linter and Gitflow.
+This is a simple landing page with 3 breakpoints
 
+Built with a "mobile first" approach
 
-Additional description about the project and its features.
+<img src="assets\MOBILE.png" width="50px" height="100px"> <img src="assets\TABLET.png" width="75px" height="100px"> <img src="assets\DESKTOP.png" width="100px" height="100px">
 
 ## Built With
 
